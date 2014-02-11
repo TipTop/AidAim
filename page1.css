@@ -1,0 +1,582 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	height:100%;
+}
+
+body {
+	height: 100%;
+	padding: 20px;
+	
+    -moz-box-sizing: border-box;        /* Firefox */  
+    -webkit-box-sizing: border-box;     /* Safari 3 */  
+    -ms-box-sizing: border-box;         /* Internet Explorer 8 */  
+    box-sizing: border-box;    
+}
+
+.a{
+	background-color:#fff;
+	height:100%;
+	width:1098px;
+	margin : 0px auto;
+	border:solid 1px #AF0F12;
+	
+    -moz-box-sizing: border-box;        /* Firefox */  
+    -webkit-box-sizing: border-box;     /* Safari 3 */  
+    -ms-box-sizing: border-box;         /* Internet Explorer 8 */  
+    box-sizing: border-box;             /* Opera */  
+}
+
+.b{
+	position: relative;
+	background-color:#fff;
+	width:200px;
+	height:100%;
+	float:left;
+}
+
+.b img{
+	margin-left:10px;
+	margin-top:30px;
+}
+
+
+.select{
+	background-color:#fff;
+	width:895px;
+	height:100%;
+	float:right;
+	border-left:solid 1px #AF0F12;
+	display:block;
+	vertical-align:bottom;
+	overflow:hidden;
+	
+    -moz-box-sizing: border-box;        /* Firefox */  
+    -webkit-box-sizing: border-box;     /* Safari 3 */  
+    -ms-box-sizing: border-box;         /* Internet Explorer 8 */  
+    box-sizing: border-box;  
+}
+
+.select div{
+	overflow:scroll;
+	height:100%;
+}
+
+
+
+h1 {
+	 font-size: 22px;
+	 
+}
+
+.select h2 {
+      font-size: 17px;
+	  background-color: #cc0000;
+	  padding:10px;
+	  padding-left:30px;
+	  color:#fff;
+	  font-weight:bold; 
+}
+
+.select h3 {
+     font-size: 15px;
+	 margin-left: 30px;
+	 margin-top:30px;
+	 font-weight:bold;
+}
+
+p {
+   font-size: 14px;
+	margin-left:30px;
+}
+
+.menu{ 
+    margin:200px 0 0 20px;
+	font-size: 14px;
+	color: #cc0000;
+	list-style:none;
+}  
+
+.menu2{ 
+   list-style:none;
+}  
+
+.box{
+	height:200px;
+	width:300px;
+	background-color:#C00;
+	
+}
+
+ul { 
+	position: absolute;
+	font-size: 14px;
+	color: #cc0000;
+	bottom: 10px;
+	left: 10px;
+}  
+
+li{
+	width:100%;
+	list-style:none;
+	
+}
+
+a{
+	color:#cc0000;
+	text-decoration:none;
+	
+}
+
+li a:hover {
+ background-color:#AF0F12;
+ color: #fff;
+ display:block;
+}
+
+
+.scroller{
+	position:absolute;
+	left:0px;
+	right:0px;
+	top:40px;
+	bottom:0px;
+	overflow-y:scroll;
+
+}
+
+.scroller div{
+	padding:10px;
+	padding-left:0px;
+}
+
+/* 会社概要 */
+
+.company{
+	position:relative;
+	background-color:#fff;
+	width:895px;
+	height:100%;
+	float:right;
+	border-left:solid 1px #AF0F12;
+	display:block;
+	vertical-align:bottom;
+	overflow:hidden;
+	
+    -moz-box-sizing: border-box;        /* Firefox */  
+    -webkit-box-sizing: border-box;     /* Safari 3 */  
+    -ms-box-sizing: border-box;         /* Internet Explorer 8 */  
+    box-sizing: border-box;  
+}
+
+
+
+.company div.title{
+	background-color: #cc0000;
+	height:40px;
+}
+
+.company h1 {
+	 font-size: 30px;
+	 margin-left:30px;
+	 margin-top:20px;
+	 
+}
+
+.company div.title h2 {
+      font-size: 17px;
+	  padding-left:30px;
+	  height:40px;
+	  width:100%;
+	  display:table-cell;
+	  vertical-align:middle;
+	  color:#fff;
+	  font-weight:bold; 
+}
+
+.company h3 {
+     font-size: 15px;
+	 margin-left: 30px;
+	 margin-top:10px;
+	 margin-bottom:20px;
+	 font-weight:bold;
+}
+
+.company p{
+	font-size:12px;
+	margin-top:20px;
+	
+}
+
+.company li{
+	margin-left:30px;
+}
+
+/* 事業内容 */
+
+
+/* コーディング道場 */
+.cording{
+	background-color:#fff;
+	width:895px;
+	height:100%;
+	float:right;
+	border-left:solid 1px #AF0F12;
+	display:block;
+	vertical-align:bottom;
+	overflow:hidden;
+	
+    -moz-box-sizing: border-box;        /* Firefox */  
+    -webkit-box-sizing: border-box;     /* Safari 3 */  
+    -ms-box-sizing: border-box;         /* Internet Explorer 8 */  
+    box-sizing: border-box;  
+}
+
+.cording div{
+	overflow:scroll;
+	height:100%;
+}
+
+
+
+.cording h1 {
+	 font-size: 30px;
+	 margin-left:30px;
+	 margin-top:20px;
+	 
+}
+
+.cording h2 {
+      font-size: 17px;
+	  background-color: #cc0000;
+	  padding:10px;
+	  padding-left:30px;
+	  color:#fff;
+	  font-weight:bold; 
+}
+
+.cording h3 {
+     font-size: 15px;
+	 margin-top:30px;
+	 margin-left: 30px;
+	 font-weight:bold;
+}
+
+.cording p{
+	font-size:12px;
+	margin-bottom:20px;
+	
+}
+
+
+/* 事業内容 */
+.service{
+	background-color:#fff;
+	width:895px;
+	height:100%;
+	float:right;
+	border-left:solid 1px #AF0F12;
+	display:block;
+	vertical-align:bottom;
+	overflow:hidden;
+	
+    -moz-box-sizing: border-box;        /* Firefox */  
+    -webkit-box-sizing: border-box;     /* Safari 3 */  
+    -ms-box-sizing: border-box;         /* Internet Explorer 8 */  
+    box-sizing: border-box;  
+}
+
+.service div{
+	overflow:scroll;
+	height:100%;
+}
+
+
+
+.service h1 {
+	 font-size: 30px;
+	 margin-left:30px;
+	 margin-top:20px;
+	 
+}
+
+.service h2 {
+      font-size: 17px;
+	  background-color: #cc0000;
+	  padding:10px;
+	  padding-left:30px;
+	  color:#fff;
+	  font-weight:bold; 
+}
+
+.service h3 {
+     font-size: 15px;
+	 margin-left: 30px;
+	 margin-top:30px;
+	 margin-bottom:0px;
+	 font-weight:bold;
+}
+
+.service p{
+	font-size:12px;
+	margin-top:20px;
+	
+}
+
+/* 経営理念 */
+.policy{
+	background-color:#fff;
+	width:895px;
+	height:100%;
+	float:right;
+	border-left:solid 1px #AF0F12;
+	display:block;
+	vertical-align:bottom;
+	overflow:hidden;
+	
+    -moz-box-sizing: border-box;        /* Firefox */  
+    -webkit-box-sizing: border-box;     /* Safari 3 */  
+    -ms-box-sizing: border-box;         /* Internet Explorer 8 */  
+    box-sizing: border-box;  
+}
+
+.policy div{
+	overflow:scroll;
+	height:100%;
+}
+
+
+
+.policy h1 {
+	 font-size: 30px;
+	 margin-left:30px;
+	 margin-top:20px;
+	 
+}
+
+.policy h2 {
+      font-size: 17px;
+	  background-color: #cc0000;
+	  padding:10px;
+	  padding-left:30px;
+	  color:#fff;
+	  font-weight:bold; 
+}
+
+.policy h3 {
+     font-size: 15px;
+	 margin-top:30px;
+	 margin-left: 30px;
+	 font-weight:bold;
+}
+
+.policy p{
+	font-size:12px;
+	margin-bottom:20px;
+	margin-top:20px;
+	
+}
+
+
+/* 弊社の強み */
+
+.strength{
+	background-color:#fff;
+	width:895px;
+	height:100%;
+	float:right;
+	border-left:solid 1px #AF0F12;
+	display:block;
+	vertical-align:bottom;
+	overflow:hidden;
+	
+    -moz-box-sizing: border-box;        /* Firefox */  
+    -webkit-box-sizing: border-box;     /* Safari 3 */  
+    -ms-box-sizing: border-box;         /* Internet Explorer 8 */  
+    box-sizing: border-box;  
+}
+
+.strength div{
+	overflow:scroll;
+	height:100%;
+}
+
+
+
+.strength h1 {
+	 font-size: 30px;
+	 margin-left:30px;
+	 margin-top:20px;
+	 
+}
+
+.strength h2 {
+      font-size: 17px;
+	  background-color: #cc0000;
+	  padding:10px;
+	  padding-left:30px;
+	  color:#fff;
+	  font-weight:bold; 
+}
+
+.strength h3 {
+     font-size: 15px;
+	 margin-left: 30px;
+	 margin-top:30px;
+	 margin-bottom:0px;
+	 font-weight:bold;
+}
+
+.strength p{
+	font-size:12px;
+	
+}
+
+/* 採用情報 */
+.recruit{
+	background-color:#fff;
+	width:895px;
+	height:100%;
+	float:right;
+	border-left:solid 1px #AF0F12;
+	display:block;
+	vertical-align:bottom;
+	overflow:hidden;
+	
+    -moz-box-sizing: border-box;        /* Firefox */  
+    -webkit-box-sizing: border-box;     /* Safari 3 */  
+    -ms-box-sizing: border-box;         /* Internet Explorer 8 */  
+    box-sizing: border-box;  
+}
+
+.recruit div{
+	overflow:scroll;
+	height:100%;
+}
+
+
+
+.recuruit h1 {
+	 font-size: 30px;
+	 margin-left:30px;
+	 margin-top:20px;
+	 
+}
+
+.recruit h2 {
+      font-size: 17px;
+	  background-color: #cc0000;
+	  padding:10px;
+	  padding-left:30px;
+	  color:#fff;
+	  font-weight:bold; 
+}
+
+.recruit h3 {
+     font-size: 15px;
+	 margin-top:30px;
+	 margin-left: 30px;
+	 font-weight:bold;
+}
+
+.recruit p{
+	font-size:12px;
+	margin-bottom:20px;
+	
+}
+
+
+/* AiaAimdとは*/
+.about{
+	background-color:#fff;
+	width:895px;
+	height:100%;
+	float:right;
+	border-left:solid 1px #AF0F12;
+	display:block;
+	vertical-align:bottom;
+	overflow:hidden;
+	
+    -moz-box-sizing: border-box;        /* Firefox */  
+    -webkit-box-sizing: border-box;     /* Safari 3 */  
+    -ms-box-sizing: border-box;         /* Internet Explorer 8 */  
+    box-sizing: border-box;  
+}
+
+.about div{
+	overflow:scroll;
+	height:100%;
+}
+
+
+
+.about h1 {
+	 font-size: 30px;
+	 margin-left:30px;
+	 margin-top:20px;
+	 
+}
+
+.about h2 {
+      font-size: 17px;
+	  background-color: #cc0000;
+	  padding:10px;
+	  padding-left:30px;
+	  color:#fff;
+	  font-weight:bold; 
+}
+
+.about h3 {
+     font-size: 18px;
+	 margin-top:30px;
+	 margin-left: 30px;
+	 font-weight:bold;
+}
+
+.about p{
+	font-size:12px;
+	margin-top:10px;
+}
+
+
+.red{
+	color:red;
+	font-size:18px;
+	margin-top:10px;
+}
+
+
+
+
+/* プライバシーポリシー*/
+
+/* お問い合わせ */
+
+.inquiry{
+	margin-left:30px;
+	font-size:12px;
+}
+
+.category{
+	font-size:12px;
+	font-weight:bold;
+}
+
+
+
+/* フロート解除用 */
+.clearfix:after {  
+  content: ".";   
+  display: block;   
+  height: 0;   
+  clear: both;   
+  visibility: hidden;  
+}  
+  
+.clearfix { display: inline-table; }  
+  
+/* Hides from IE-mac \*/  
+* html .clearfix { height: 1%; }  
+.clearfix { display: block; }  
+/* End hide from IE-mac */  
